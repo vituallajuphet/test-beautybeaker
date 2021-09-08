@@ -31,15 +31,41 @@
 
 
 #banner{
-    background-color: violet;
     .banner_cont{
         position: relative;
         text-align: center;
-        min-height:400px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+        min-height: 400px;
+        .brn_info{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            h2{
+                
+            }
+            p{
+
+            }
+            .btn_started{
+
+            }
+
+            .bnr_btm{
+                a{
+                    
+                }
+            }
+        }
+        figure{
+            width: 1920px;
+            margin-left: -353px;
+            position: relative;
+            background: #e0ca96;
+            img{
+                display: block;
+            }
+        }
     }
    
 }
@@ -53,7 +79,7 @@
             margin-bottom: 1rem;
             font-size: 45px;
             font-weight: bold;
-            color: #932893;
+            color: #8a468a;
         }
         .sec1_inner{
             display: flex;
